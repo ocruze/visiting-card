@@ -8,7 +8,8 @@ public class GetTexture : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GetImg());
+        // StartCoroutine(GetImg());
+        this.gameObject.SetActive(false);
     }
 
     IEnumerator GetImg()

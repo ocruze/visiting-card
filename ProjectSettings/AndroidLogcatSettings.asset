@@ -1,10 +1,10 @@
 {
     "m_SelectedDeviceId": "384878bc",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
-        "exited": false
+        "deviceId": "384878bc",
+        "name": "com.DefaultCompany.ImageTrackingDemo",
+        "processId": 19913,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -48,6 +48,12 @@
             "deviceId": "384878bc",
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 16218,
+            "exited": false
+        },
+        {
+            "deviceId": "384878bc",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 19913,
             "exited": false
         }
     ],
