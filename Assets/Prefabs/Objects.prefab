@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2836137037826437839}
   - component: {fileID: 3286809385226178071}
   - component: {fileID: 4804221269954996250}
-  - component: {fileID: 5723738903092609784}
+  - component: {fileID: 3290639249656366187}
+  - component: {fileID: 4339822855911476946}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: ShowHideVideoCylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208790273083809225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.0515, y: 0, z: 0.0327}
   m_LocalScale: {x: 0.01, y: 0.001, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1937927892837746820}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &3286809385226178071
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e4752e3c5fa55c84ebc2e366ecd9c8d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,7 +83,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5723738903092609784
+--- !u!136 &3290639249656366187
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,6 +97,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &4339822855911476946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208790273083809225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8cf3770121b5341801e2ea24148544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  publicObject: {fileID: 1937927892435693583}
 --- !u!1 &535435607016360416
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +186,7 @@ GameObject:
   - component: {fileID: 1937927892435693586}
   - component: {fileID: 1937927892435693585}
   - component: {fileID: 1937927892435693588}
+  - component: {fileID: 8842597348547560648}
   m_Layer: 0
   m_Name: Video
   m_TagString: Untagged
@@ -291,6 +306,19 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &8842597348547560648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937927892435693583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f600c4255a367e340baf5c84cb4f3282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1937927892435693588}
 --- !u!1 &1937927892837746819
 GameObject:
   m_ObjectHideFlags: 0
