@@ -1,10 +1,10 @@
 {
-    "m_SelectedDeviceId": "R58MC1R9JVV",
+    "m_SelectedDeviceId": "384878bc",
     "m_SelectedPackage": {
-        "deviceId": "R58MC1R9JVV",
+        "deviceId": "384878bc",
         "name": "com.DefaultCompany.ImageTrackingDemo",
-        "processId": 15964,
-        "exited": false
+        "processId": 19913,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -54,24 +54,6 @@
             "deviceId": "384878bc",
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 19913,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 2230,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 14724,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 15964,
             "exited": false
         }
     ],
