@@ -12,6 +12,7 @@ public class InterationOpenCloseMenu : Interaction
     private int state = 0;
     private Texture2D minus_texture;
     private Texture2D plus_texture;
+    public GameObject bonhomme = null;
 
     public override void Interact()
     {
@@ -25,6 +26,8 @@ public class InterationOpenCloseMenu : Interaction
             StartCoroutine(CloseMenu());
             state = 0;
         }
+
+        bonhomme.GetComponent<Animator>().SetInteger("state", this.state);
     }
 
     private IEnumerator CloseMenu()

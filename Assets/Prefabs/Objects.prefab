@@ -972,7 +972,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 45
+    angle: 35
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 0.01
@@ -5625,6 +5625,7 @@ MonoBehaviour:
   publicObject: {fileID: 1937927892435693583}
   play_icon: {fileID: 4900000, guid: a70b9cef9194c7c48b50a31044a0dcbf, type: 3}
   material: {fileID: 2100000, guid: e4752e3c5fa55c84ebc2e366ecd9c8d9, type: 2}
+  bonhomme: {fileID: 5925328745139333787}
 --- !u!1 &6583464972935500445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5653,7 +5654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583464972935500445}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.0404, y: 0, z: -0.0112}
+  m_LocalPosition: {x: 0.0408, y: 0, z: -0.0112}
   m_LocalScale: {x: 0.01, y: 0.001, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1937927892837746820}
@@ -5851,6 +5852,7 @@ MonoBehaviour:
   - {fileID: 3534934980225911483}
   - {fileID: 4133473322569409705}
   - {fileID: 8234385560929233514}
+  bonhomme: {fileID: 5925328745139333787}
 --- !u!1 &8234385560929233514
 GameObject:
   m_ObjectHideFlags: 0

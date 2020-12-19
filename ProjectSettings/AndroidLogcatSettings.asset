@@ -1,10 +1,11 @@
 {
-    "m_SelectedDeviceId": "192.168.1.19:5555",
+    "m_SelectedDeviceId": "384878bc",
     "m_SelectedPackage": {
-        "deviceId": "192.168.1.19:5555",
+
+        "deviceId": "384878bc",
         "name": "com.DefaultCompany.ImageTrackingDemo",
-        "processId": 3410,
-        "exited": false
+        "processId": 19913,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -55,6 +56,7 @@
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 19913,
             "exited": false
+<<<<<<< HEAD
         },
         {
             "deviceId": "R58MC1R9JVV",
@@ -151,6 +153,8 @@
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 3410,
             "exited": false
+=======
+>>>>>>> 07a5284a9f32c0e4af74cfd45d377f3b00aeb9b8
         }
     ],
     "m_Tags": {
@@ -201,7 +205,7 @@
             true
         ],
         "MemoryGroup": 1,
-        "Behavior": 0
+        "Behavior": 1
     },
     "m_Filter": "",
     "m_FilterIsRegularExpression": false,
