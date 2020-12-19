@@ -1,10 +1,10 @@
 {
-    "m_SelectedDeviceId": "384878bc",
+    "m_SelectedDeviceId": "192.168.1.19:5555",
     "m_SelectedPackage": {
-        "deviceId": "384878bc",
+        "deviceId": "192.168.1.19:5555",
         "name": "com.DefaultCompany.ImageTrackingDemo",
-        "processId": 19913,
-        "exited": true
+        "processId": 24448,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -54,6 +54,96 @@
             "deviceId": "384878bc",
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 19913,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2471,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 555,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 9315,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 13280,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 24576,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 26526,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 4520,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 7454,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MC1R9JVV",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 18254,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 16928,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 18719,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 19404,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 21286,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 22857,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 24448,
             "exited": false
         }
     ],
@@ -105,7 +195,7 @@
             true
         ],
         "MemoryGroup": 1,
-        "Behavior": 1
+        "Behavior": 0
     },
     "m_Filter": "",
     "m_FilterIsRegularExpression": false,

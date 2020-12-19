@@ -779,6 +779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   publicObject: {fileID: 1937927892435693583}
+  play_icon: {fileID: 4900000, guid: a70b9cef9194c7c48b50a31044a0dcbf, type: 3}
+  material: {fileID: 2100000, guid: e4752e3c5fa55c84ebc2e366ecd9c8d9, type: 2}
 --- !u!1 &8106875006975053006
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,8 +793,7 @@ GameObject:
   - component: {fileID: 946501538882261172}
   - component: {fileID: 4552781179720296189}
   - component: {fileID: 7333070484561794428}
-  - component: {fileID: 3099513778928737487}
-  - component: {fileID: 7934277583331082534}
+  - component: {fileID: 5365588044928360907}
   m_Layer: 0
   m_Name: btnOpenMenu
   m_TagString: Untagged
@@ -841,7 +842,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b47fa70b594009e42829f7fc20c8354a, type: 2}
+  - {fileID: 2100000, guid: 56b28df9a602a3a4984e595995bbc6f4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -877,20 +878,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!65 &3099513778928737487
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8106875006975053006}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 0, z: 0.000030428171}
---- !u!114 &7934277583331082534
+--- !u!114 &5365588044928360907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -899,10 +887,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8106875006975053006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 685181ce632cc594a9d8987ee8e4e5f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 8325a137b432f564faf3896656e6dd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: http://www.foks-lab.fr
+  minus_icon: {fileID: 4900000, guid: 6d0ed926d3460304eac310ba333ff359, type: 3}
+  plus_icon: {fileID: 4900000, guid: 8a1f00ecee38faf48bdef9da72841a99, type: 3}
+  material: {fileID: 2100000, guid: 56b28df9a602a3a4984e595995bbc6f4, type: 2}
+  btns:
+  - {fileID: 3534934980225911483}
+  - {fileID: 4133473322569409705}
+  - {fileID: 8234385560929233514}
 --- !u!1 &8234385560929233514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,13 +1090,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc1bdcaf2472e0448dcebd71ed97cbc, type: 3}
---- !u!1 &5925328745139333787 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bc1bdcaf2472e0448dcebd71ed97cbc, type: 3}
-  m_PrefabInstance: {fileID: 6844229846394853322}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6444984996410208289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1bc1bdcaf2472e0448dcebd71ed97cbc, type: 3}
+  m_PrefabInstance: {fileID: 6844229846394853322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5925328745139333787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bc1bdcaf2472e0448dcebd71ed97cbc, type: 3}
   m_PrefabInstance: {fileID: 6844229846394853322}
   m_PrefabAsset: {fileID: 0}

@@ -10,4 +10,9 @@ public class InteractionURL : Interaction
         Application.OpenURL(url);
 
     }
+
+    public void Start()
+    {
+        this.gameObject.SetActive(false);
+    }
 }
