@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "192.168.1.19:5555",
     "m_SelectedPackage": {
-        "deviceId": "192.168.1.19:5555",
-        "name": "com.DefaultCompany.ImageTrackingDemo",
-        "processId": 24448,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -113,18 +113,6 @@
         {
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 16928,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 18719,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 19404,
             "exited": true
         },
@@ -144,7 +132,13 @@
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 24448,
-            "exited": false
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 25831,
+            "exited": true
         }
     ],
     "m_Tags": {
