@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "192.168.1.19:5555",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "192.168.1.19:5555",
+        "name": "com.DefaultCompany.ImageTrackingDemo",
+        "processId": 3410,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -112,33 +112,45 @@
         },
         {
             "deviceId": "192.168.1.19:5555",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2471,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 19404,
+            "processId": 8690,
             "exited": true
         },
         {
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 21286,
+            "processId": 10977,
             "exited": true
         },
         {
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 22857,
+            "processId": 14047,
             "exited": true
         },
         {
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 24448,
+            "processId": 15560,
             "exited": true
         },
         {
             "deviceId": "192.168.1.19:5555",
             "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 25831,
+            "processId": 23528,
             "exited": true
+        },
+        {
+            "deviceId": "192.168.1.19:5555",
+            "name": "com.DefaultCompany.ImageTrackingDemo",
+            "processId": 3410,
+            "exited": false
         }
     ],
     "m_Tags": {
