@@ -1,7 +1,6 @@
 {
     "m_SelectedDeviceId": "384878bc",
     "m_SelectedPackage": {
-
         "deviceId": "384878bc",
         "name": "com.DefaultCompany.ImageTrackingDemo",
         "processId": 19913,
@@ -56,105 +55,6 @@
             "name": "com.DefaultCompany.ImageTrackingDemo",
             "processId": 19913,
             "exited": false
-<<<<<<< HEAD
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.sec.android.app.launcher",
-            "processId": 2471,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 555,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 9315,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 13280,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 24576,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 26526,
-            "exited": true
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 4520,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 7454,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MC1R9JVV",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 18254,
-            "exited": false
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.sec.android.app.launcher",
-            "processId": 2471,
-            "exited": false
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 8690,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 10977,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 14047,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 15560,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 23528,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.1.19:5555",
-            "name": "com.DefaultCompany.ImageTrackingDemo",
-            "processId": 3410,
-            "exited": false
-=======
->>>>>>> 07a5284a9f32c0e4af74cfd45d377f3b00aeb9b8
         }
     ],
     "m_Tags": {

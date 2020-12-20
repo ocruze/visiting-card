@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1471224238074982292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.0175, z: -0.0291}
-  m_LocalScale: {x: 0.1, y: 0.05, z: 0.005}
+  m_LocalScale: {x: 0.1, y: 0.05, z: 0.001}
   m_Children: []
   m_Father: {fileID: 1937927892837746820}
   m_RootOrder: 8
@@ -5512,7 +5512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60b2fc552ff8de43917dcb9a5cbdd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
+  bonhomme: {fileID: 5925328745139333787}
 --- !u!1 &6407300195205365458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5638,7 +5638,7 @@ GameObject:
   - component: {fileID: 869430809347990867}
   - component: {fileID: 7299895101203080426}
   - component: {fileID: 1044034257857463809}
-  - component: {fileID: 6440277575642605115}
+  - component: {fileID: 856405938755980210}
   m_Layer: 0
   m_Name: btnChangeAnimation
   m_TagString: Untagged
@@ -5723,7 +5723,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6440277575642605115
+--- !u!114 &856405938755980210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5735,7 +5735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60b2fc552ff8de43917dcb9a5cbdd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 8742965935241757196}
+  bonhomme: {fileID: 5925328745139333787}
 --- !u!1 &8106875006975053006
 GameObject:
   m_ObjectHideFlags: 0

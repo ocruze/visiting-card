@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class InteractionChangeAnim : Interaction
 {
-    public Animator _animator = null;
+    public GameObject bonhomme = null;
 
     public override void Interact()
     {
-        int oldState = _animator.GetInteger("state");
+        int oldState = bonhomme.GetComponent<Animator>().GetInteger("state");
         int maxState = 2;
         int newState;
 
@@ -17,13 +17,6 @@ public class InteractionChangeAnim : Interaction
         else
             newState = oldState + 1;
 
-        _animator.SetInteger("state", newState);
-
-        /*
-        if (_animator.GetInteger("state") == 0)
-            _animator.SetInteger("state", 1);
-        else
-            _animator.SetInteger("state", 0);
-        */
+        bonhomme.GetComponent<Animator>().SetInteger("state", newState);
     }
 }
